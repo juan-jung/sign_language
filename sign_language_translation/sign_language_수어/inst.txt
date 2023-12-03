@@ -1,0 +1,29 @@
+가상환경 lstm.yaml
+----------------실행순서-------------------------------
+set_folders
+keypoint_collect
+model_build
+eval 
+main
+-------------------실행 전 확인/변경 사항----------------------------
+functions.py
+data_path
+actions
+no_sequence
+sequence_length
+
+set_folder.py
+data 폴더 확인
+
+model_build.py
+이미 저장되어 있는 model/log dir 처리
+rnn/cnn 주석처리
+
+eval.py
+model 경로
+
+main.py
+model 경로
+threshold
+-------------------------------------------------------------------------
+https://github.com/google/mediapipe/blob/master/docs/solutions/holistic.md
